@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{{ title }}</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS styl -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Hlavička stránky -->
+    <header class="header">
+      <a class="header-name" href="/">markéta hájková</a>
+      <nav class="menu">
+        <ul class="menu__ul">
+          <li><a class="menu__ul--unactive" href="/ux/">ux</a></li>
+          <li><a class="menu__ul--unactive" href="/grafika/">grafika</a></li>
+          <li>
+            <a class="menu__ul--unactive" href="/fotografie/">fotografie</a>
+          </li>
+          <li><a class="menu__ul--unactive" href="/kontakt/">kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="main">
+    {{ content | safe }}
+    </main>
+
+    <!-- Patička stránky -->
+    <div class="footer">
+      <footer>
+        <h2 class="footer__description">
+          UX & UI <br />
+          Designer <br />
+          Junior
+        </h2>
+      </footer>
+    </div>
+  </body>
+</html>

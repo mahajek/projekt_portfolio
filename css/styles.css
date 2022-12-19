@@ -1,0 +1,305 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  background-image: url(/img/purple_gradient.jpg);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@media only screen and (max-width: 640px) {
+  /* Index.html */
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: #f5f5f5;
+  }
+
+  /* Hlavička*/
+  .header {
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .header-name {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f5f5f5;
+    float: left;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+  }
+
+  /* Hlavní menu */
+  .menu__ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .menu .menu__ul--unactive {
+    padding: 15px;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #f5f5f5;
+  }
+
+  .header__ul--unactive:hover {
+    color: #fff700;
+  }
+
+  .hero-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-box__description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /*text-shadow: 3px 3px 10px #f5f5f5;*/
+    color: #f5f5f5;
+  }
+  .hero-box__description--coloured {
+    color: #fff700;
+    text-shadow: none;
+    font-weight: bold;
+  }
+
+  /* Patička */
+  .footer {
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer__description {
+    font-size: 16px;
+  }
+
+  /* Fotografie.html */
+
+  .gallery__grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .gallery__photo {
+    max-width: 100%;
+  }
+
+  /* UX.html */
+
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+    color: #f5f5f5;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .project__description {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .project__image {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    height: 80vh;
+    line-height: 1.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: #f5f5f5;
+  }
+
+  /* Hlavička*/
+  .header {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .header-name {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f5f5f5;
+    float: left;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+  }
+
+  /* Hlavní menu */
+
+  .menu__ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .menu .menu__ul--unactive {
+    padding: 15px;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #f5f5f5;
+  }
+
+  .header__ul--unactive:hover {
+    color: #fff700;
+  }
+
+  .hero-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-box__description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /*text-shadow: 3px 3px 10px #f5f5f5;*/
+    color: #f5f5f5;
+  }
+  .hero-box__description--coloured {
+    color: #fff700;
+    text-shadow: none;
+    font-weight: bold;
+  }
+
+  /* Patička */
+  .footer {
+    color: #f5f5f5;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .footer__description {
+    font-size: 16px;
+  }
+
+  /* Fotografie.html */
+
+  .gallery__grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .gallery__photo {
+    max-width: 100%;
+  }
+
+  /* UX.html */
+
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+    color: #f5f5f5;
+    margin-left: 50px;
+  }
+
+  .project__description {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .project__link {
+    text-decoration: none;
+  }
+
+  .project__image {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .contact {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
