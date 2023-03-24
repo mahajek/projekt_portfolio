@@ -5,7 +5,8 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: linear-gradient(rgb(255, 160, 187), rgb(181, 244, 255));
+  /*background-color: #f8fcff;*/
+  background-image: url(/img/background.jpg);
 }
 
 *,
@@ -14,31 +15,34 @@ html {
   box-sizing: inherit;
 }
 
-@media only screen and (max-width: 640px) {
-  /* Index.html */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #121212;
+}
 
-  body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-  }
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-  }
+a {
+  color: #121212;
+}
 
+@media only screen and (min-width: 200px) {
   /* Hlavička*/
   .header {
     background-repeat: no-repeat;
@@ -54,7 +58,6 @@ html {
     padding: 0px;
     font-size: 16px;
     text-decoration: none;
-    color: black;
     text-align: center;
     letter-spacing: 3px;
     text-transform: lowercase;
@@ -75,7 +78,6 @@ html {
     font-style: normal;
     text-decoration: none;
     text-transform: lowercase;
-    color: black;
   }
 
   .header__ul--unactive:hover {
@@ -98,7 +100,7 @@ html {
   }
 
   .hero-box__description--coloured {
-    color: #ffbf00;
+    color: #ff0044;
     text-shadow: none;
     font-weight: bold;
   }
@@ -116,16 +118,30 @@ html {
 
   /* UX.html */
 
+  .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
   .square {
     width: 300px;
     height: 300px;
-    background-color: #ff0044;
+    background-image: url(/img/budejce.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 15px #9a9a9a9d;
   }
 
   .project__description {
     position: absolute;
-    margin-top: 50px;
-    margin-bottom: 0;
+    margin-top: 260px;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+
+  .project__description:hover {
+    color: #ff0044;
   }
 
   .contact {
@@ -135,29 +151,7 @@ html {
   }
 }
 
-@media only screen and (min-width: 1200px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    height: 100vh;
-    width: 100vw;
-    line-height: 1.5;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-  }
-
+@media only screen and (min-width: 768px) {
   /* Hlavička*/
   .header {
     background-repeat: no-repeat;
@@ -174,7 +168,6 @@ html {
     padding: 0px;
     font-size: 16px;
     text-decoration: none;
-    color: black;
     float: left;
     letter-spacing: 2px;
     text-transform: lowercase;
@@ -186,7 +179,6 @@ html {
     padding: 0px;
     font-size: 16px;
     text-decoration: none;
-    color: black;
     float: center;
     letter-spacing: 2px;
   }
@@ -207,7 +199,6 @@ html {
     font-style: normal;
     text-decoration: none;
     text-transform: lowercase;
-    color: black;
   }
 
   .header__ul--unactive:hover {
@@ -228,9 +219,171 @@ html {
     text-transform: uppercase;
     letter-spacing: 5px;
     /*text-shadow: 3px 3px 10px #f5f5f5;*/
-    color: black;
   }
   .hero-box__description--coloured {
+    /*color: #ff0044;*/
+    color: #ff0044;
+    text-shadow: none;
+    font-weight: bold;
+  }
+
+  /* Patička */
+  .footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer__description {
+    font-size: 12px;
+  }
+
+  /* Fotografie.html */
+
+  .gallery__grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .gallery__photo {
+    max-width: 100%;
+  }
+
+  /* UX.html */
+
+  .introduction__header {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 80px;
+    color: #ffbd59;
+    margin-left: 50px;
+  }
+
+  .introduction__description {
+    font-size: 16px;
+    margin-left: 50px;
+  }
+
+  .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .square {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/budejce.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 15px #9a9a9a9d;
+  }
+
+  .project__description {
+    position: absolute;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .project__description:hover {
+    color: #ff0044;
+  }
+
+  .project__link {
+    text-decoration: none;
+  }
+
+  .project__image {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .contact {
+    display: flex;
+    height: 70vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Hlavička*/
+  .header {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .header-name {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    float: left;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+  }
+
+  .header-name__info {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    float: center;
+    letter-spacing: 2px;
+  }
+
+  /* Hlavní menu */
+
+  .menu__ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .menu .menu__ul--unactive {
+    padding: 15px;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+  .header__ul--unactive:hover {
+    color: #ff0044;
+  }
+
+  .hero-box {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .hero-box__description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /*text-shadow: 3px 3px 10px #f5f5f5;*/
+  }
+  .hero-box__description--coloured {
+    /*color: #ff0044;*/
     color: #ff0044;
     text-shadow: none;
     font-weight: bold;
@@ -265,16 +418,46 @@ html {
 
   .project {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 14px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+  }
 
-    margin-left: 50px;
+  .square_01 {
+    width: 200px;
+    height: 200px;
+    background-color: #121212;
+    /*box-shadow: 10px 10px 15px #9a9a9a9d;*/
+  }
+
+  .square_02 {
+    width: 400px;
+    height: 400px;
+    background-image: url(/img/wireframe.jpg);
+    background-size: cover;
+    /*background-color: #ffbd59;*/
+    /*box-shadow: 10px 10px 15px #9a9a9a9d;*/
+  }
+
+  .square_03 {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/dj.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*box-shadow: 10px 10px 15px #9a9a9a9d;*/
   }
 
   .project__description {
-    margin-top: 50px;
-    margin-bottom: 0;
+    margin-left: 20;
+    text-decoration: none;
+    color: #121212;
+    text-transform: lowercase;
+    color: #121212;
+  }
+
+  .project__description:hover {
+    color: #ff0044;
   }
 
   .project__link {
