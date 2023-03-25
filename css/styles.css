@@ -2,7 +2,7 @@
 html {
   height: 100%;
   box-sizing: border-box;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   /*background-color: #f8fcff;*/
@@ -42,7 +42,7 @@ a {
   color: #121212;
 }
 
-@media only screen and (min-width: 200px) {
+@media only screen and (max-width: 768px) {
   /* Hlavička*/
   .header {
     background-repeat: no-repeat;
@@ -118,37 +118,74 @@ a {
 
   /* UX.html */
 
-  .project {
+  .case_studies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+
+  .introduction__header {
+    margin-top: 100px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #ffbd59;
+  }
+
+  .introduction__description {
+    font-size: 16px;
+  }
+
+  .square_01 {
+    margin-top: 40px;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: #121212;
+    border-width: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    /*box-shadow: 10px 10px 15px #9a9a9a9d;*/
   }
 
-  .square {
-    width: 300px;
-    height: 300px;
-    background-image: url(/img/budejce.jpg);
-    background-size: cover;
-    box-shadow: 10px 10px 15px #9a9a9a9d;
+  .square_02 {
+    margin-top: 40px;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: #121212;
+    border-width: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*box-shadow: 10px 10px 15px #9a9a9a9d;*/
   }
 
   .project__description {
-    position: absolute;
-    margin-top: 260px;
-    margin-left: 20px;
+    margin-bottom: 40px;
     text-decoration: none;
+    color: #121212;
+    text-transform: lowercase;
+    text-align: left;
+  }
+
+  .project__description--02 {
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: #121212;
+    text-transform: lowercase;
+    text-align: left;
   }
 
   .project__description:hover {
     color: #ff0044;
   }
+}
 
-  .contact {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
+.contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -238,69 +275,61 @@ a {
     font-size: 12px;
   }
 
-  /* Fotografie.html */
+  /* UX.html */
 
-  .gallery__grid {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  .case_studies {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
-  .gallery__photo {
-    max-width: 100%;
-  }
-
-  /* UX.html */
-
   .introduction__header {
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 80px;
     color: #ffbd59;
-    margin-left: 50px;
   }
 
-  .introduction__description {
-    font-size: 16px;
-    margin-left: 50px;
-  }
-
-  .project {
+  .square_01 {
+    margin-top: 40px;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: #121212;
+    border-width: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
   }
 
-  .square {
-    width: 300px;
-    height: 300px;
-    background-image: url(/img/budejce.jpg);
-    background-size: cover;
-    box-shadow: 10px 10px 15px #9a9a9a9d;
+  .square_02 {
+    margin-top: 40px;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: #121212;
+    border-width: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .project__description {
-    position: absolute;
-    margin-left: 0;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     text-decoration: none;
-    font-size: 16px;
+    color: #121212;
+    text-transform: lowercase;
+    text-align: left;
+  }
+
+  .project__description--02 {
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: #121212;
+    text-transform: lowercase;
+    text-align: left;
   }
 
   .project__description:hover {
     color: #ff0044;
-  }
-
-  .project__link {
-    text-decoration: none;
-  }
-
-  .project__image {
-    max-width: 100%;
-    margin-top: 30px;
-    margin-bottom: 50px;
   }
 
   .contact {
@@ -400,74 +429,73 @@ a {
     font-size: 12px;
   }
 
-  /* Fotografie.html */
-
-  .gallery__grid {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .gallery__photo {
-    max-width: 100%;
-  }
-
   /* UX.html */
+
+  .case_studies {
+    display: block;
+    margin-left: 50px;
+  }
 
   .project {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    height: 80vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .introduction__header {
+    font-size: 60px;
+    margin-left: 0;
+  }
+
+  .introduction__description {
+    font-size: 16px;
   }
 
   .square_01 {
-    width: 200px;
-    height: 200px;
-    background-color: #121212;
-    /*box-shadow: 10px 10px 15px #9a9a9a9d;*/
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: #121212;
+    border-width: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .square_02 {
-    width: 400px;
-    height: 400px;
-    background-image: url(/img/wireframe.jpg);
-    background-size: cover;
-    /*background-color: #ffbd59;*/
-    /*box-shadow: 10px 10px 15px #9a9a9a9d;*/
-  }
-
-  .square_03 {
-    width: 300px;
-    height: 300px;
-    background-image: url(/img/dj.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*box-shadow: 10px 10px 15px #9a9a9a9d;*/
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: #121212;
+    border-width: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .project__description {
-    margin-left: 20;
+    font-family: 'Nanum Myeongjo';
     text-decoration: none;
     color: #121212;
     text-transform: lowercase;
+    text-align: left;
+  }
+
+  .project__description--02 {
+    font-family: 'Nanum Myeongjo';
+    text-decoration: none;
     color: #121212;
+    text-transform: lowercase;
+    text-align: left;
   }
 
   .project__description:hover {
     color: #ff0044;
   }
 
-  .project__link {
-    text-decoration: none;
-  }
-
-  .project__image {
-    max-width: 100%;
-    margin-top: 30px;
-    margin-bottom: 50px;
+  .project__description--02:hover {
+    color: #ff0044;
   }
 
   .contact {
