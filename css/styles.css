@@ -42,7 +42,7 @@ a {
   color: #121212;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* Hlavička*/
   .header {
     background-repeat: no-repeat;
@@ -183,12 +183,16 @@ a {
 }
 
 .contact {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 768px) {
+.contact__header {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+@media only screen and (max-width: 768px) {
   /* Hlavička*/
   .header {
     background-repeat: no-repeat;
@@ -342,7 +346,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
   /* Hlavička*/
   .header {
     background-repeat: no-repeat;
@@ -500,10 +504,25 @@ a {
 
   .contact {
     display: flex;
-    height: 70vh;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    height: 70vh;
+  }
+
+  .contact__header {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+  }
+
+  .contact__email {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .contact__phone {
+    font-size: 16px;
   }
 }
