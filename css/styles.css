@@ -5,8 +5,8 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /*background-color: #f8fcff;*/
   background-image: url(/img/background.svg);
+  /*background-color: #f8fcff;*/
 }
 
 *,
@@ -386,7 +386,7 @@ a {
 
 @media only screen and (min-width: 1020px) {
   body {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /* Hlavička*/
@@ -532,7 +532,7 @@ a {
   /*Case study*/
 
   .casestudyone {
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 50px;
   }
 
@@ -542,13 +542,35 @@ a {
     color: #ffbd59;
   }
 
-  .casestudyone__subtitle {
-    font-size: 18px;
-  }
-
   .casestudyone__info {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .project__overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+
+  .project__overview--problem {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 35px;
+    color: #ff0044;
+  }
+
+  .design-proces {
+    margin-top: 80px;
+  }
+
+  .design-proces__stages {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+  }
+
+  .user-research {
+    margin-top: 80px;
   }
 
   /*O mně*/
