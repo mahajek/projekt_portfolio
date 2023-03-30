@@ -27,7 +27,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #121212;
+  color: #515151;
 }
 
 h1,
@@ -39,7 +39,7 @@ h4 {
 }
 
 a {
-  color: #121212;
+  color: #515151;
 }
 
 @media only screen and (min-width: 300px) {
@@ -588,23 +588,39 @@ a {
   }
 
   .user-research__persona {
-    width: 1080px;
+    width: 1150px;
   }
 
   .empathy-maps {
     margin-top: 80px;
   }
 
-  .empathy-maps__box{
+  .empathy-maps__box {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
+    margin-top: 80px;
   }
 
-  .empathy-maps__boris, .empathy-maps__sandra {
-    width: 550px;
+  .empathy-maps__box--text {
+    writing-mode: vertical-rl;
+    letter-spacing: 3px;
+    font-weight: bold;
   }
 
+  .empathy-maps__boris,
+  .empathy-maps__sandra {
+    width: 500px;
+  }
+
+  .user-journey__table {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  th,
+  td {
+    border: #515151 1px solid;
   }
 
   /*O mně*/

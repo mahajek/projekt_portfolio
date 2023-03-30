@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1003.6 1003.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #515151;
+        font-size: 40px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #515151;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-width: .75px;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x=".5" y=".5" width="480.68" height="480.68"/>
+  <rect class="cls-3" x="522.42" y=".5" width="480.68" height="480.68"/>
+  <rect class="cls-3" x=".5" y="522.42" width="480.68" height="480.68"/>
+  <rect class="cls-3" x="522.42" y="522.42" width="480.68" height="480.68"/>
+  <text class="cls-1" transform="translate(179.1 46.47)"><tspan x="0" y="0">Says</tspan></text>
+  <text class="cls-1" transform="translate(700 46.47)"><tspan x="0" y="0">Thinks</tspan></text>
+  <text class="cls-1" transform="translate(705.18 579.82)"><tspan x="0" y="0">Feels</tspan></text>
+  <text class="cls-1" transform="translate(179.1 579.82)"><tspan x="0" y="0">Does</tspan></text>
+  <rect class="cls-4" x="32.75" y="85.35" width="183.67" height="183.67"/>
+  <rect class="cls-4" x="229.1" y="235.77" width="183.67" height="183.67"/>
+  <rect class="cls-4" x="32.75" y="622.84" width="183.67" height="183.67"/>
+  <rect class="cls-4" x="554.11" y="610.79" width="183.67" height="183.67"/>
+  <rect class="cls-4" x="752.16" y="768.66" width="183.67" height="183.67"/>
+  <rect class="cls-4" x="773.18" y="215.93" width="183.67" height="183.67"/>
+  <rect class="cls-4" x="554.11" y="77.77" width="183.67" height="183.67"/>
+  <text class="cls-2" transform="translate(52.08 144.04)"><tspan x="0" y="0">Měla by existovat </tspan><tspan x="0" y="19.2">appka, abych se </tspan><tspan x="0" y="38.4">orientoval </tspan><tspan x="0" y="57.6">v kulturních </tspan><tspan x="0" y="76.8">akcích.</tspan></text>
+  <text class="cls-2" transform="translate(256.33 312.72)"><tspan x="0" y="0">Chtěl bych to mít </tspan><tspan x="0" y="19.2">všechno na </tspan><tspan x="0" y="38.4">jednom místě</tspan></text>
+  <text class="cls-2" transform="translate(573.44 157.65)"><tspan x="0" y="0">Nemám čas </tspan><tspan x="0" y="19.2">projíždět jednotlivé </tspan><tspan x="0" y="38.4">weby</tspan></text>
+  <text class="cls-2" transform="translate(792.5 304.58)"><tspan x="0" y="0">Nevím, kam bych </tspan><tspan x="0" y="19.2">večer šel</tspan></text>
+  <text class="cls-2" transform="translate(761.82 850.04)"><tspan x="0" y="0">Jsem naštvaný, že </tspan><tspan x="0" y="19.2">se o akci dozvídám </tspan><tspan x="0" y="38.4">pozdě</tspan></text>
+  <text class="cls-2" transform="translate(42.41 714.47)"><tspan x="0" y="0">Hledám na webech </tspan><tspan x="0" y="19.2">jednotlivých institucí</tspan></text>
+  <text class="cls-2" transform="translate(606.59 704.11)"><tspan x="0" y="0">Frustraci</tspan></text>
+</svg>
