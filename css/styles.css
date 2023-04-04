@@ -386,7 +386,7 @@ a {
 
 @media only screen and (min-width: 1020px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* Hlavička*/
@@ -570,6 +570,11 @@ a {
     margin-top: 80px;
   }
 
+  .user-research__title,
+  .design__title {
+    color: #ffbd59;
+  }
+
   .design-proces__stages {
     display: grid;
     grid-template-columns: 200px 200px 200px 200px 200px;
@@ -585,6 +590,10 @@ a {
   .user-research {
     margin-top: 80px;
     display: block;
+  }
+
+  .personas {
+    margin-top: 80px;
   }
 
   .user-research__persona {
@@ -613,14 +622,33 @@ a {
     width: 500px;
   }
 
-  .user-journey__table {
+  .competitive-audit {
     margin-top: 80px;
-    text-align: center;
   }
 
-  th,
-  td {
-    border: #515151 1px solid;
+  .competitive-audit__img {
+    width: 1150px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .user-journey {
+    margin-top: 80px;
+  }
+
+  .user-journey__tab {
+    width: 1150px;
+  }
+
+  .design {
+    margin-top: 80px;
+    color: #ffbd59;
+  }
+
+  .design--userflow {
+    width: 1200px;
   }
 
   /*O mně*/
