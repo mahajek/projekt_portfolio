@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1728.24 1157.42">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #515151;
+        stroke-width: .75px;
+      }
+
+      .cls-3 {
+        font-family: Poppins-Light, Poppins;
+        font-size: 16px;
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        fill: #515151;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x=".37" y="789.73" width="125.34" height="125.34"/>
+    <path class="cls-5" d="m125.34,790.11v124.59H.75v-124.59h124.59m.75-.75H0v126.09h126.09v-126.09h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="815.05" y="544.8" width="125.34" height="125.34"/>
+    <path class="cls-5" d="m940.01,545.17v124.59h-124.59v-124.59h124.59m.75-.75h-126.09v126.09h126.09v-126.09h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="815.05" y="26.49" width="125.34" height="125.34" transform="translate(194.03 646.76) rotate(-45)"/>
+    <path class="cls-5" d="m877.72,1.06l88.1,88.1-88.1,88.1-88.1-88.1L877.72,1.06m0-1.06l-89.16,89.16,89.16,89.16,89.16-89.16L877.72,0h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="1576.41" y="788.57" width="125.34" height="125.34" transform="translate(-121.84 1408.32) rotate(-45)"/>
+    <path class="cls-5" d="m1639.08,763.14l88.1,88.1-88.1,88.1-88.1-88.1,88.1-88.1m0-1.06l-89.16,89.16,89.16,89.16,89.16-89.16-89.16-89.16h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x=".37" y="1031.71" width="125.34" height="125.34"/>
+    <path class="cls-5" d="m125.34,1032.09v124.59H.75v-124.59h124.59m.75-.75H0v126.09h126.09v-126.09h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x=".37" y="544.85" width="125.34" height="125.34"/>
+    <path class="cls-5" d="m125.34,545.22v124.59H.75v-124.59h124.59m.75-.75H0v126.09h126.09v-126.09h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="1308.29" y="786.52" width="125.34" height="125.34"/>
+    <path class="cls-5" d="m1433.25,786.9v124.59h-124.59v-124.59h124.59m.75-.75h-126.09v126.09h126.09v-126.09h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="245.46" y="544.85" width="125.34" height="125.34"/>
+    <path class="cls-5" d="m370.42,545.22v124.59h-124.59v-124.59h124.59m.75-.75h-126.09v126.09h126.09v-126.09h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="490.54" y="544.85" width="125.34" height="125.34"/>
+    <path class="cls-5" d="m615.5,545.22v124.59h-124.59v-124.59h124.59m.75-.75h-126.09v126.09h126.09v-126.09h0Z"/>
+  </g>
+  <g>
+    <g>
+      <rect class="cls-1" x="1.14" y="15.35" width="125.34" height="125.34"/>
+      <path class="cls-5" d="m126.1,15.72v124.59H1.51V15.72h124.59m.75-.75H.76v126.09h126.09V14.97h0Z"/>
+    </g>
+    <text class="cls-3" transform="translate(30.53 72.46)"><tspan x="0" y="0">Otevření </tspan><tspan x="-.31" y="19.2">aplikace</tspan></text>
+  </g>
+  <g>
+    <g>
+      <rect class="cls-1" x="543.53" y="26.49" width="125.34" height="125.34"/>
+      <path class="cls-5" d="m668.49,26.86v124.59h-124.59V26.86h124.59m.75-.75h-126.09v126.09h126.09V26.11h0Z"/>
+    </g>
+    <text class="cls-3" transform="translate(582.48 83.61)"><tspan x="0" y="0">Home</tspan><tspan x="2.54" y="19.2">page</tspan></text>
+  </g>
+  <g>
+    <g>
+      <rect class="cls-1" x="272.33" y="274.59" width="125.34" height="125.34"/>
+      <path class="cls-5" d="m397.29,274.96v124.59h-124.59v-124.59h124.59m.75-.75h-126.09v126.09h126.09v-126.09h0Z"/>
+    </g>
+    <text class="cls-3" transform="translate(292.99 339.14)"><tspan x="0" y="0">Registrace</tspan></text>
+  </g>
+  <text class="cls-3" transform="translate(44.32 1091.47)"><tspan x="0" y="0">Moje</tspan><tspan x="-21.29" y="19.2">vstupenky</tspan></text>
+  <text class="cls-3" transform="translate(1612.08 846.22)"><tspan x="0" y="0">Check</tspan><tspan x="11.9" y="19.2">out</tspan></text>
+  <text class="cls-3" transform="translate(846 592.44)"><tspan x="0" y="0">Seznam</tspan><tspan x="-23.33" y="19.2">vyfiltrovaných</tspan><tspan x=".13" y="38.4">událostí</tspan></text>
+  <text class="cls-3" transform="translate(864.37 92.6)"><tspan x="0" y="0">Filtr</tspan></text>
+  <text class="cls-3" transform="translate(34.16 606.05)"><tspan x="0" y="0">Platební </tspan><tspan x="7.7" y="19.2">brána</tspan></text>
+  <text class="cls-3" transform="translate(35.7 844.59)"><tspan x="0" y="0">Shrnutí</tspan><tspan x="-18.48" y="19.2">objednávky</tspan></text>
+  <text class="cls-3" transform="translate(272.96 599.65)"><tspan x="0" y="0">Potvrzení</tspan><tspan x="-10.66" y="19.2">objednávky</tspan></text>
+  <text class="cls-3" transform="translate(530.67 601.79)"><tspan x="0" y="0">Detail</tspan><tspan x="-23.29" y="19.2">objednávky </tspan></text>
+  <text class="cls-3" transform="translate(458.16 51.65)"><tspan x="0" y="0">Log</tspan><tspan x="7.01" y="19.2">in</tspan></text>
+  <text class="cls-3" transform="translate(1080.73 1127.73)"><tspan x="0" y="0">Ano</tspan></text>
+  <text class="cls-3" transform="translate(1481.5 668.17)"><tspan x="0" y="0">Ne</tspan></text>
+  <text class="cls-3" transform="translate(276.28 216.7)"><tspan x="0" y="0">Sign </tspan><tspan x="6.41" y="19.2">up</tspan></text>
+  <text class="cls-3" transform="translate(1348.45 852)"><tspan x="0" y="0">Košík</tspan></text>
+  <g>
+    <g>
+      <rect class="cls-1" x="272.33" y="26.49" width="125.34" height="125.34" transform="translate(35.08 262.99) rotate(-45)"/>
+      <path class="cls-5" d="m335,1.06l88.1,88.1-88.1,88.1-88.1-88.1L335,1.06m0-1.06l-89.16,89.16,89.16,89.16,89.16-89.16L335,0h0Z"/>
+    </g>
+    <text class="cls-3" transform="translate(312.01 84.15)"><tspan x="0" y="0">Log in</tspan><tspan x="-6.54" y="19.2">Sign up</tspan></text>
+  </g>
+  <g>
+    <line class="cls-4" x1="126.85" y1="89.16" x2="240.46" y2="89.16"/>
+    <polygon class="cls-5" points="239.37 92.9 245.84 89.16 239.37 85.42 239.37 92.9"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="424.16" y1="89.16" x2="537.77" y2="89.16"/>
+    <polygon class="cls-5" points="536.68 92.9 543.15 89.16 536.68 85.42 536.68 92.9"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="670.24" y1="89.16" x2="783.85" y2="89.16"/>
+    <polygon class="cls-5" points="782.76 92.9 789.23 89.16 782.76 85.42 782.76 92.9"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="940.76" y1="849.19" x2="1054.38" y2="849.19"/>
+    <polygon class="cls-5" points="1053.28 852.93 1059.76 849.19 1053.28 845.45 1053.28 852.93"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="1187.85" y1="849.24" x2="1301.46" y2="849.24"/>
+    <polygon class="cls-5" points="1300.36 852.98 1306.84 849.24 1300.36 845.5 1300.36 852.98"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="490.16" y1="607.52" x2="376.55" y2="607.52"/>
+    <polygon class="cls-5" points="377.65 603.78 371.17 607.51 377.65 611.25 377.65 603.78"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="244.77" y1="610.42" x2="131.16" y2="610.42"/>
+    <polygon class="cls-5" points="132.25 606.68 125.78 610.42 132.25 614.16 132.25 606.68"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="1434" y1="851.19" x2="1544.54" y2="851.19"/>
+    <polygon class="cls-5" points="1543.45 854.93 1549.92 851.19 1543.45 847.45 1543.45 854.93"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="877.72" y1="178.82" x2="877.72" y2="292.44"/>
+    <polygon class="cls-5" points="873.98 291.34 877.72 297.82 881.46 291.34 873.98 291.34"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="877.72" y1="426.18" x2="877.72" y2="539.79"/>
+    <polygon class="cls-5" points="873.98 538.7 877.72 545.18 881.46 538.7 873.98 538.7"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="877.72" y1="669.85" x2="877.72" y2="783.47"/>
+    <polygon class="cls-5" points="873.98 782.37 877.72 788.85 881.46 782.37 873.98 782.37"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="57.37" y1="669.85" x2="57.37" y2="783.47"/>
+    <polygon class="cls-5" points="53.63 782.37 57.36 788.85 61.1 782.37 53.63 782.37"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="57.37" y1="912.23" x2="57.37" y2="1025.85"/>
+    <polygon class="cls-5" points="53.63 1024.75 57.36 1031.23 61.1 1024.75 53.63 1024.75"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="335" y1="268.83" x2="335" y2="178.31"/>
+    <polygon class="cls-5" points="338.74 267.74 335 274.21 331.26 267.74 338.74 267.74"/>
+  </g>
+  <circle class="cls-2" cx="1122.8" cy="849.19" r="63.04"/>
+  <circle class="cls-2" cx="877.72" cy="851.24" r="63.04"/>
+  <g>
+    <circle class="cls-2" cx="877.72" cy="361.37" r="63.04"/>
+    <text class="cls-3" transform="translate(849.58 347.27)"><tspan x="0" y="0">Datum</tspan><tspan x="6.94" y="19.2">a typ</tspan><tspan x="-6.45" y="38.4">aplikace</tspan></text>
+  </g>
+  <text class="cls-3" transform="translate(853.82 845.38)"><tspan x="0" y="0">Výběr </tspan><tspan x="-8.69" y="19.2">události</tspan></text>
+  <text class="cls-3" transform="translate(1091.93 833.14)"><tspan x="0" y="0">Vhození </tspan><tspan x="-9.14" y="19.2">vstupenky</tspan><tspan x="-5.65" y="38.4">do košíku</tspan></text>
+  <text/>
+  <text/>
+  <line class="cls-4" x1="1639.08" y1="940.4" x2="1639.08" y2="1094.38"/>
+  <line class="cls-4" x1="1639.08" y1="684.46" x2="1639.08" y2="761.45"/>
+  <g>
+    <line class="cls-4" x1="553.21" y1="675.94" x2="553.21" y2="1094.38"/>
+    <polygon class="cls-5" points="549.47 677.03 553.21 670.56 556.95 677.03 549.47 677.03"/>
+  </g>
+  <line class="cls-4" x1="553.21" y1="1094.38" x2="1639.08" y2="1094.38"/>
+  <line class="cls-4" x1="1367.88" y1="684.46" x2="1639.08" y2="684.46"/>
+  <g>
+    <line class="cls-4" x1="1367.88" y1="684.46" x2="1367.88" y2="780.76"/>
+    <polygon class="cls-5" points="1364.14 779.67 1367.88 786.15 1371.62 779.67 1364.14 779.67"/>
+  </g>
+</svg>
