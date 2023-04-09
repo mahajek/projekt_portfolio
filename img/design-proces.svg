@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1446.4 699.13">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 16px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #515151;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke: #515151;
+        stroke-width: .75px;
+      }
+
+      .cls-4, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-size: 24px;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5, .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x=".38" y="245.9" width="235.87" height="235.87"/>
+  <rect class="cls-4" x="302.82" y="245.9" width="235.87" height="235.87"/>
+  <rect class="cls-4" x="605.27" y="245.9" width="235.87" height="235.87"/>
+  <rect class="cls-4" x="907.71" y="245.9" width="235.87" height="235.87"/>
+  <rect class="cls-4" x="1210.16" y="245.9" width="235.87" height="235.87"/>
+  <text class="cls-2" transform="translate(55.67 370.46)"><tspan x="0" y="0">Empathize</tspan></text>
+  <text class="cls-1" transform="translate(190.42 209.77)"><tspan x="0" y="0">Empathize to define </tspan><tspan x="29.9" y="19.2">the problem</tspan></text>
+  <text class="cls-1" transform="translate(792.46 645.73)"><tspan x="0" y="0">Test reveals insights</tspan><tspan x="-22.39" y="19.2">that redefine the problem</tspan></text>
+  <text class="cls-1" transform="translate(934.05 209.77)"><tspan x="0" y="0">Test creates new ideas</tspan><tspan x="35.38" y="19.2">for the project</tspan></text>
+  <text class="cls-1" transform="translate(784.22 507.51)"><tspan x="0" y="0">Learn from prototypes</tspan><tspan x="13.58" y="19.2">to spark new ideas</tspan></text>
+  <text class="cls-1" transform="translate(651.62 33.55)"><tspan x="0" y="0">Learn about users</tspan><tspan x="10.21" y="19.2">through testing</tspan></text>
+  <text class="cls-2" transform="translate(382.81 370.46)"><tspan x="0" y="0">Define</tspan></text>
+  <text class="cls-2" transform="translate(684.78 370.46)"><tspan x="0" y="0">Ideate</tspan></text>
+  <text class="cls-2" transform="translate(967.82 370.46)"><tspan x="0" y="0">Prototype</tspan></text>
+  <text class="cls-2" transform="translate(1303.53 370.46)"><tspan x="0" y="0">Test</tspan></text>
+  <g>
+    <path class="cls-5" d="m118.31,232.01s65.3-62.16,154.02-62.16c75.5,0,129.98,45.01,144.55,58.43"/>
+    <polygon class="cls-3" points="413.47 230.3 420.76 232.01 418.59 224.85 413.47 230.3"/>
+  </g>
+  <g>
+    <path class="cls-5" d="m1024.13,495.67s-65.3,62.16-154.02,62.16c-75.5,0-129.99-45.01-144.55-58.43"/>
+    <polygon class="cls-3" points="728.96 497.37 721.68 495.67 723.84 502.82 728.96 497.37"/>
+  </g>
+  <g>
+    <path class="cls-5" d="m1326.57,495.67s-195.89,203.09-462.06,203.09c-244.1,0-414.98-170.81-441.63-199.13"/>
+    <polygon class="cls-3" points="426.4 497.82 419.23 495.67 420.95 502.94 426.4 497.82"/>
+  </g>
+  <g>
+    <path class="cls-5" d="m107.14,228.53C141.85,199.64,393.23.37,726.12.38c358.92,0,600.45,231.64,600.45,231.64"/>
+    <polygon class="cls-3" points="110.41 230.77 103.04 232.01 105.65 225 110.41 230.77"/>
+  </g>
+  <g>
+    <path class="cls-5" d="m725.9,228.68c23.39-17.93,141.62-102.25,296.36-102.25,173.15,0,289.67,105.58,289.67,105.58"/>
+    <polygon class="cls-3" points="729.09 230.97 721.68 232.01 724.48 225.08 729.09 230.97"/>
+  </g>
+  <g>
+    <line class="cls-6" x1="236.24" y1="363.84" x2="297.44" y2="363.84"/>
+    <polygon class="cls-3" points="296.34 367.58 302.82 363.84 296.34 360.1 296.34 367.58"/>
+  </g>
+  <g>
+    <line class="cls-6" x1="538.69" y1="363.84" x2="599.88" y2="363.84"/>
+    <polygon class="cls-3" points="598.79 367.58 605.27 363.84 598.79 360.1 598.79 367.58"/>
+  </g>
+  <g>
+    <line class="cls-6" x1="841.14" y1="363.84" x2="902.33" y2="363.84"/>
+    <polygon class="cls-3" points="901.24 367.58 907.71 363.84 901.24 360.1 901.24 367.58"/>
+  </g>
+  <g>
+    <line class="cls-6" x1="1143.58" y1="363.84" x2="1204.78" y2="363.84"/>
+    <polygon class="cls-3" points="1203.68 367.58 1210.16 363.84 1203.68 360.1 1203.68 367.58"/>
+  </g>
+</svg>
