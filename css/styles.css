@@ -742,9 +742,9 @@ a {
   }
 
   .contact__header {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Fredericka the great', serif;
     font-size: 30px;
-    color: #ffbd59;
+    color: #ff0044;
   }
 
   .contact__email {
@@ -1103,18 +1103,34 @@ a {
     margin-top: 80px;
   }
 
+  .casestudytwo {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60vw;
+    justify-content: center;
+  }
+
+  .casestudytwo__img {
+    width: 500px;
+  }
+
   /*O mně*/
 
   .about {
-    display: flex;
-    justify-content: space-between;
-    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
 
   .about__description {
     font-size: 15px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .my_photo {
+    width: 300px;
   }
 
   .contact {
