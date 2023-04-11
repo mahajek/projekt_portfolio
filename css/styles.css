@@ -551,7 +551,7 @@ a {
     font-size: 60px;
     font-family: 'Fredericka the great', serif;
     /*color: #ff4e59;*/
-    color: #ff465b;
+    color: #ff0044;
     margin-left: 50px;
     letter-spacing: 3px;
   }
@@ -572,7 +572,7 @@ a {
     font-size: 20px;
     font-style: italic;
     margin-top: 35px;
-    color: #ff465b;
+    color: #ff0044;
   }
 
   .design-proces {
@@ -683,7 +683,8 @@ a {
     width: 400px;
   }
 
-  .design__lo-fi--wireframes {
+  .design__lo-fi--wireframes,
+  .design__hi-fi {
     margin-top: 80px;
     display: grid;
     justify-content: center;
@@ -707,7 +708,8 @@ a {
     font-size: 14px;
   }
 
-  .design__lo-fi__img {
+  .design__lo-fi__img,
+  .design__hi-fi__img {
     width: 150px;
   }
 
