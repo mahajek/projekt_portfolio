@@ -43,6 +43,11 @@ a {
 }
 
 @media only screen and (min-width: 300px) {
+  body {
+    width: 90vw;
+    font-size: 12px;
+  }
+
   /* Hlavička*/
   .header {
     background-repeat: no-repeat;
@@ -134,11 +139,8 @@ a {
   .introduction__header {
     margin-top: 100px;
     font-family: 'Fredericka the great', serif;
-    color: #ffbd59;
-  }
-
-  .introduction__description {
-    font-size: 16px;
+    color: #ff0044;
+    font-size: 30px;
   }
 
   .square_01 {
@@ -168,23 +170,210 @@ a {
   }
 
   .project__description {
+    margin: 0;
     margin-bottom: 40px;
     text-decoration: none;
-    color: #121212;
+    color: #515151;
     text-transform: lowercase;
     text-align: left;
   }
 
   .project__description--02 {
+    margin: 0;
     margin-bottom: 40px;
     text-decoration: none;
-    color: #121212;
+    color: #515151;
     text-transform: lowercase;
     text-align: left;
   }
 
   .project__description:hover {
     color: #ff0044;
+  }
+
+  /*Case study*/
+
+  .casestudyone {
+    margin-top: 50px;
+    width: 50vw;
+  }
+
+  .casestudyone__box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-left: 50px;
+  }
+
+  .casestudyone__title {
+    font-size: 30px;
+    font-family: 'Fredericka the great', serif;
+    color: #ff0044;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .casestudyone__info {
+    display: grid;
+    grid-template-columns: 300px;
+    gap: 20px;
+  }
+
+  .project__overview {
+    margin-top: 50px;
+    width: 80vw;
+  }
+
+  .project__overview--problem {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 35px;
+    color: #ff0044;
+  }
+
+  .design-proces {
+    margin-top: 80px;
+  }
+
+  .user-research__title,
+  .design__title {
+    font-size: 20px;
+    color: #515151;
+  }
+
+  .design-proces__stages {
+    margin-top: 80px;
+    width: 300px;
+  }
+
+  .user-research {
+    margin-top: 80px;
+    display: block;
+    width: 80vw;
+  }
+
+  .personas {
+    margin-top: 80px;
+  }
+
+  .user-research__persona {
+    width: 300px;
+  }
+
+  .empathy-maps {
+    margin-top: 80px;
+    width: 80vw;
+  }
+
+  .empathy-maps__box {
+    margin-top: 80px;
+  }
+
+  .empathy-maps__box--text {
+    display: none;
+  }
+
+  .empathy-maps__boris,
+  .empathy-maps__sandra {
+    width: 300px;
+  }
+
+  .competitive-audit {
+    margin-top: 80px;
+  }
+
+  .competitive-audit__img {
+    width: 300px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .user-journey {
+    margin-top: 80px;
+  }
+
+  .user-journey__tab {
+    width: 300px;
+  }
+
+  .design {
+    margin-top: 80px;
+  }
+  .design__title {
+    color: #ffbd59;
+  }
+
+  .design__info {
+    display: grid;
+    color: #515151;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    width: 80vw;
+  }
+
+  .design__userflow {
+    width: 300px;
+  }
+
+  .design__wireframes--title,
+  .design__userflow--title {
+    margin-top: 80px;
+  }
+
+  .design__paper--wireframes {
+    width: 80vw;
+  }
+
+  .design__paper--img {
+    width: 300px;
+  }
+
+  .design__lo-fi--wireframes,
+  .design__hi-fi {
+    margin-top: 80px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 80vw;
+  }
+
+  .design__wireframes--info {
+    width: 80vw;
+  }
+
+  .design__lo-fi--wireframes--02 {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 20px;
+    width: 80vw;
+    margin-top: 80px;
+  }
+
+  .design__lo-fi--info {
+    text-align: left;
+    margin: 0;
+    margin-top: 20%;
+    font-size: 14px;
+  }
+
+  .design__lo-fi__img,
+  .design__hi-fi__img {
+    width: 150px;
+  }
+
+  .user-interface {
+    margin-top: 80px;
+  }
+
+  .user-interface--img {
+    margin-top: 50px;
+    margin-left: 0;
+    width: 300px;
   }
 
   /*O mně*/
@@ -566,6 +755,7 @@ a {
 @media only screen and (min-width: 1020px) {
   body {
     font-size: 16px;
+    width: 100vw;
   }
 
   /* Hlavička*/
@@ -611,7 +801,7 @@ a {
 
   .hero-box {
     height: 75vh;
-    display: flex;
+    display: grid;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
@@ -724,7 +914,6 @@ a {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-left: 150px;
   }
 
   .casestudyone__title {
@@ -761,7 +950,7 @@ a {
 
   .user-research__title,
   .design__title {
-    font-size: 20px;
+    font-size: 30px;
     color: #515151;
   }
 
@@ -770,18 +959,16 @@ a {
     width: 1000px;
   }
 
-  .empathize {
-    text-align: center;
-    border: 1px solid #ffbd59;
-    padding: 20px;
-  }
-
   .user-research {
     margin-top: 80px;
     display: block;
   }
 
   .personas {
+    margin-top: 80px;
+  }
+
+  .personas__title {
     margin-top: 80px;
   }
 
@@ -829,13 +1016,11 @@ a {
 
   .user-journey__tab {
     width: 1150px;
+    margin-top: 30px;
   }
 
   .design {
     margin-top: 80px;
-  }
-  .design__title {
-    color: #ffbd59;
   }
 
   .design__info {
@@ -860,11 +1045,11 @@ a {
   }
 
   .design__paper--img {
+    margin-top: 80px;
     width: 400px;
   }
 
-  .design__lo-fi--wireframes,
-  .design__hi-fi {
+  .design__lo-fi--wireframes {
     margin-top: 80px;
     display: grid;
     justify-content: center;
@@ -888,9 +1073,21 @@ a {
     font-size: 14px;
   }
 
+  .design__hi-fi {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    gap: 20px;
+    width: 80vw;
+    margin-top: 80px;
+  }
+
   .design__lo-fi__img,
   .design__hi-fi__img {
     width: 150px;
+  }
+
+  .nodisplay {
+    color: #ffffff;
   }
 
   .user-interface {
@@ -900,6 +1097,10 @@ a {
   .user-interface--img {
     margin-top: 50px;
     width: 900px;
+  }
+
+  .next-step__title {
+    margin-top: 80px;
   }
 
   /*O mně*/
@@ -927,9 +1128,9 @@ a {
   }
 
   .contact__header {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Fredericka the great', serif;
     font-size: 30px;
-    color: #ffbd59;
+    color: #ff0044;
   }
 
   .contact__email {
