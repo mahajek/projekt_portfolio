@@ -40,6 +40,11 @@ h4 {
 
 a {
   color: #515151;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0044;
 }
 
 @media only screen and (min-width: 300px) {
@@ -1033,7 +1038,7 @@ a {
 
   .design__wireframes--title,
   .design__userflow--title {
-    margin-top: 80px;
+    margin-top: 120px;
   }
 
   .design__paper--wireframes {
@@ -1091,7 +1096,7 @@ a {
   }
 
   .user-interface {
-    margin-top: 80px;
+    margin-top: 120px;
   }
 
   .user-interface--img {
@@ -1100,7 +1105,7 @@ a {
   }
 
   .next-step__title {
-    margin-top: 80px;
+    margin-top: 120px;
   }
 
   .casestudytwo {
@@ -1113,6 +1118,10 @@ a {
 
   .casestudytwo__img {
     width: 500px;
+  }
+
+  .next-step__info {
+    margin-bottom: 120px;
   }
 
   /*O mně*/
