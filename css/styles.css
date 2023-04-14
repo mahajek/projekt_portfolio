@@ -393,6 +393,22 @@ a:hover {
     font-size: 16px;
   }
 
+  .zivotopis {
+    font-family: 'Fredericka the great', serif;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #ff0044;
+  }
+
+  /*Životopis*/
+
+  .zivotopis__img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /*Kontakt*/
 
   .contact {
@@ -1142,6 +1158,25 @@ a:hover {
     width: 300px;
   }
 
+  /*Životopis*/
+
+  .zivotopis {
+    font-family: 'Fredericka the great', serif;
+    margin-left: 50px;
+    font-size: 60px;
+    color: #ff0044;
+  }
+
+  .zivotopis__img {
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*Kontakt*/
+
   .contact {
     display: flex;
     flex-direction: column;
@@ -1153,7 +1188,7 @@ a:hover {
   }
 
   .contact__header {
-    font-family: 'Fredericka the great', serif;
+    font-family: 'Fredericka the great' serif;
     font-size: 30px;
     color: #ff0044;
   }
